@@ -1,8 +1,3 @@
-'''
-gun = 0
-water = -1
-snake = 1
-'''
 import random
 computer = random.choice([-1,0,1])
 gamer = input("Enter your choice: ")
@@ -26,4 +21,5 @@ else:
     elif(computer==-1 and you==0):
         print("you win")
     else:
+
         print("something went wrong")
